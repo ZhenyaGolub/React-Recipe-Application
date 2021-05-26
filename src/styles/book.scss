@@ -1,0 +1,42 @@
+.book-link{
+    justify-content: flex-end;
+}
+
+.book-item{
+    position: relative;
+}
+
+.delete-recipe-button{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: #b46125;
+    cursor: pointer;
+}
+
+.book-amount-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.book-amount-title{
+    color: white;
+    font-family: $typesFont, sans-serif;
+    font-weight: bold;
+}
+
+.book-amount{
+    color: white;
+    font-family: $inputFont, sans-serif;
+}
+
+.to-the-back-page-link{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-family: $typesFont, sans-serif;
+    color: #acacac;
+    cursor: pointer;
+}

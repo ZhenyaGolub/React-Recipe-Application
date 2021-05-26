@@ -1,0 +1,60 @@
+@mixin headerIcon {
+    color: $headerFontColor;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.header{
+    background-color: #f58634;
+    box-shadow: 0px 3px 7px 0px #8d4b1c;
+    &__inner{
+        padding: 15px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__logo{
+        font-family: $logoFont, sans-serif;
+        font-size: 20px;
+        margin: 0;
+        color: $headerFontColor;
+        text-transform: uppercase;
+    }
+    &__form{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__input{
+        outline: none;
+        border: 3px solid #a1561f;
+        border-radius: 15px;
+        padding: 2px 15px;
+        margin: 0 10px 0 0;
+        font-family: $inputFont, 'sans-serif';
+        font-size: 20px;
+        transition: background-color 0.5s ease-in-out;
+        color: #a1561f;
+        &:focus{
+            background-color: #f6dcbf;
+        }
+    }
+    &__search-button{
+        border: none;
+        background: none;
+        color:$headerFontColor;
+        cursor: pointer;
+    }
+    &__settings{
+        @include headerIcon();
+    }
+    &__recipe-book{
+        @include headerIcon();
+    }
+}
+
+.mobile-logo{
+    display: none;
+    font-size: 35px;
+    color: #b94d00;
+}
