@@ -1,0 +1,200 @@
+@media (max-width: $lg + px) {
+    .recipes__item-content{
+        margin: 0 0 0 20px;
+    }
+    .recipes__item-types{
+        span{
+            font-size: 17px;
+        }
+    }
+    .recipes__item-parameters-ingredients, .recipes__item-parameters-yields, .recipes__item-parameters-calories{
+        font-size: 18px;
+    }
+    .add-button{
+        font-size: 18px;
+    }
+    .recipes__total-amount{
+        span{
+            font-size: 17px;
+        }
+    }
+    .back-page-link{
+        font-size: 17px;
+    }
+    .recipe__top{
+        flex-direction: column;
+    }
+    .recipe__img{
+        text-align: center;
+        margin: 0 0 30px 0;
+    }
+    .recipe__top-content{
+        margin: 0 0 50px 0;
+    }
+    .recipe__title{
+        margin: 0 0 20px 0;
+    }
+    .recipe__types{
+        margin: 0 0 20px 0;
+    }
+}
+
+@media (max-width: $md + px) {
+    .header__logo{
+        display: none;
+    }
+    .mobile-logo{
+        display: block;
+    }
+    img{
+        max-width: 100%;
+    }
+    .recipes__item-label{
+        font-size: 25px;
+    }
+    .recipes__item-types{
+        span{
+            font-size: 11px;
+        }
+    }
+    .recipes__item-parameters-ingredients, .recipes__item-parameters-yields, .recipes__item-parameters-calories{
+        font-size: 12px;
+    }
+    .add-button{
+        font-size: 12px;
+    }
+    .link{
+        font-size: 25px;
+    }
+    .delete-recipe-button{
+        font-size: 18px;
+    }
+    .book-amount-title{
+        font-size: 25px;
+    }
+    .book-amount{
+        font-size: 15px;
+    }
+    .settings__popup-calories-wrapper{
+        flex-direction: column;
+    }
+    .calories-input{
+        margin: 0 0 10px 0;
+        input{
+            width: 100%;
+        }
+    }
+    .empty__content{
+        i{
+            font-size: 100px;
+        }
+        p{
+            font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: $sm + px) {
+    .mobile-logo{
+        font-size: 20px;
+    }
+    .header__input{
+        font-size: 13px;
+        margin: 0 2px 0 0;
+    }
+    .header__search-button, .header__settings, .header__recipe-book{
+        font-size: 20px;
+    }
+    .recipes__item-content{
+        margin: 0;
+    }
+    .recipes__item{
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 10px 25px 10px;
+    }
+    .recipes__item-label{
+        text-align: center;
+        margin: 0 0 10px 0;
+    }
+    .recipes__item-types{
+        margin: 0 0 10px 0;
+    }
+    .recipes__item-parameters{
+        margin: 0 0 25px 0;
+    }
+    .recipes__total-amount{
+        padding: 0 0 10px 0;
+        text-align: center;
+        span{
+            font-size: 13px;
+        }
+    }
+    .show-more-button{
+        font-size: 18px;
+        padding: 10px 30px;
+    }
+    .delete-recipe-button{
+        border-radius: 50%;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #b46125;
+        color: #6e3b16;
+        top: -23px;
+        right: -23px;
+        font-size: 15px;
+    }
+    .book-amount-wrapper{
+        margin: 0 0 20px 0;
+    }
+    .book-amount-title{
+        font-size: 16px;
+    }
+    .book-amount{
+        font-size: 12px;
+    }
+    .recipe__ingredients-nutrition{
+        flex-direction: column;
+    }
+    .recipe__nutrition-title{
+        margin: 20px 0;
+    }
+    .recipe__nutrition-health{
+        margin: 0 0 20px 0;
+    }
+    .recipe__type{
+        font-size: 18px;
+        text-align: center;
+    }
+    .recipe__parameters{
+        flex-direction: column;
+        div{
+            font-size: 18px;
+            margin: 0 0 10px 0;
+        }
+    }
+    .recipe__nutrients-title{
+        font-size: 20px;
+        text-align: center;
+    }
+    .recipe__nutrients-item{
+        margin: 20px 0;
+        span{
+            font-size: 15px;
+        }
+    }
+    .recipe__nutrients-items{
+        flex-direction: column;
+    }
+    .recipe__types{
+        flex-direction: column;
+    }
+    .instruction__link{
+        font-size: 16px;
+    }
+    .recipe__nutrients-table{
+        font-size: 14px;
+    }
+}

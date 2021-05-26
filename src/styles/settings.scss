@@ -1,0 +1,103 @@
+.settings__popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    &-body{
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+        height: 100%;
+        width: 100%;
+        background-color: #81b214;
+        overflow-y: auto;
+        &::-webkit-scrollbar {
+            width: 7px;
+        }
+        &::-webkit-scrollbar-thumb{
+            background-color: #a1561f;
+            border-radius: 5px;
+        }
+    }
+    &-close{
+        text-align: end;
+    }
+    &-title{
+        font-family: $typesFont, sans-serif;
+        color: white;
+        margin: 0 0 20px 0;
+    }
+    &-range{
+        width: 100%;
+    }
+    &-calories{
+        margin: 0 0 20px 0;
+        &-wrapper{
+           display: flex;
+        }
+        label{
+            font-family: $inputFont, sans-serif;
+            margin: 0 10px 0 0;
+        }
+        input{
+            font-family: $inputFont, sans-serif;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            padding: 2px 5px;
+        }
+    }
+    &-ingredients{
+        margin: 0 0 20px 0;
+    }
+    &-category{
+        margin: 0 0 20px 0;
+        &:last-child{
+            margin: 0;
+        }
+        &-checkboxes{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    &-set-button{
+        text-align: end;
+        padding: 10px;
+    }
+}
+
+.category-checkbox{
+    font-family: $inputFont, sans-serif;
+    margin: 3px 15px;
+}
+
+.set-button{
+    background-color: #f58634;
+    border: 3px solid #a1561f;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: #a1561f;
+    cursor: pointer;
+    font-family: $typesFont, sans-serif;
+    i{
+        padding: 0 5px 0 0;
+    }
+}
+
+.close-button{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.label{
+    margin: 0 0 0 5px;
+}
+
+.calories-input{
+    margin: 0 10px 0 0;
+}

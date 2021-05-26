@@ -1,0 +1,152 @@
+.recipe{
+    &__top{
+        display: flex;
+        &-content{
+            margin: 0 0 0 20px;
+            flex: 1 1 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+    }
+    &__title{
+        text-align: center;
+        font-family: 'Teko', sans-serif;
+        font-weight: bold;
+    }
+    &__types{
+        display: flex;
+        justify-content: space-around;
+    }
+    &__type{
+        font-family: $inputFont, sans-serif;
+        margin: 5px 20px;
+        padding: 5px 20px;
+        border-radius: 10px;
+        color: white;
+        background-color: #b46125;
+        white-space: nowrap;
+    }
+    &__parameters{
+        display: flex;
+        justify-content: space-around;
+        font-family: $typesFont, sans-serif;
+        &-ingredients{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &-yields{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &-calories{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    &__bottom{
+        margin: 20px 0 0 0;
+    }
+    &__nutrients{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 50px 0;
+        &-title{
+            margin: 0 0 20px 0;
+            font-family: $typesFont, sans-serif;
+            font-weight: 900;
+        }
+        &-items{
+            display: flex;
+        }
+        &-item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 20px;
+            &-nutrient{
+                text-transform: uppercase;
+                font-family: $inputFont, sans-serif;
+                font-size: 18px;
+            }
+            &-amount{
+                font-family: $inputFont, sans-serif;
+                font-weight: 900;
+                font-size: 18px;
+            }
+            &-units{
+                font-family: $inputFont, sans-serif;
+                text-transform: uppercase;
+                font-size: 18px;
+            }
+        }
+    }
+    &__ingredients-nutrition{
+        display: flex;
+    }
+    &__ingredients-list-title{
+        font-family: $typesFont, sans-serif;
+        margin: 0 0 20px 0;
+    }
+    &__nutrition{
+        &-title{
+            font-family: $typesFont, sans-serif;
+            margin: 0 0 20px 0;
+        }
+        &-health{
+            font-family: $inputFont, sans-serif;
+            font-size: 18px;
+        }
+        &-table-wrapper{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.ingredient{
+    font-size: 18px;
+    font-family: $inputFont, sans-serif;
+    margin: 10px 0;
+}
+
+.recipe__nutrients-table{
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-size: 18px;
+    th{
+        padding: 5px;
+        font-family: $typesFont, sans-serif;
+    }
+    td{
+        padding: 5px;
+        font-family: $inputFont, sans-serif;
+    }
+}
+
+.alignment{
+    text-align: end;
+}
+
+.instruction{
+    margin: 50px 0 20px 0;
+    text-align: center;
+}
+
+.instruction__link{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: $typesFont, sans-serif;
+    background-color: #81b214;
+    color: white;
+    text-decoration: none;
+    i{
+        margin: 0 10px 0 0;
+    }
+}
